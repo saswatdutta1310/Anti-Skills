@@ -1,0 +1,53 @@
+{
+  "version": "3.0.0",
+  "operations": [
+    {
+      "timestamp": "2026-04-21T19:43:21.719176",
+      "action": "install",
+      "skill_name": "awesome-design-md",
+      "source": "C:\\Users\\punya\\.gemini\\antigravity\\scratch\\temp_skill_clone",
+      "destination": "C:\\Users\\punya\\.gemini\\antigravity\\skills\\awesome-design-md",
+      "registered": true,
+      "registry_updated": true,
+      "backup_path": null,
+      "success": true,
+      "verification": {
+        "success": true,
+        "checks": [
+          {
+            "check": "skill_dir_exists",
+            "pass": true,
+            "path": "C:\\Users\\punya\\.gemini\\antigravity\\skills\\awesome-design-md"
+          },
+          {
+            "check": "skill_md_readable",
+            "pass": true,
+            "path": "C:\\Users\\punya\\.gemini\\antigravity\\skills\\awesome-design-md\\SKILL.md"
+          },
+          {
+            "check": "frontmatter_parseable",
+            "pass": true,
+            "name": "awesome-design-md"
+          },
+          {
+            "check": "claude_registered",
+            "pass": true,
+            "path": "C:\\Users\\punya\\.gemini\\antigravity\\skills\\.claude\\skills\\awesome-design-md\\SKILL.md"
+          },
+          {
+            "check": "in_registry",
+            "pass": true
+          }
+        ],
+        "total": 5,
+        "passed": 5,
+        "failed": 0
+      },
+      "warnings": [
+        "Check 6: Name 'awesome-design-md' differs from directory 'temp_skill_clone'"
+      ]
+    }
+  ],
+  "total_operations": 1,
+  "last_updated": "2026-04-21T19:43:21.720193"
+}
