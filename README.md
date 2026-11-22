@@ -8,13 +8,14 @@
 
 Skills are modular, progressive instruction sets that transform AI coding assistants into domain experts. Each skill provides precise guidelines, architectural patterns, battle-tested edge cases, and CLI workflows tailored for specific languages, frameworks, cloud platforms, security standards, and business domains.
 
-Whether you need strict test-driven development, deep low-level Rust systems programming, full-stack Next.js 15 architectures, OWASP AppSec hardening, or bioinformatics workflows, Anti-Skills gives your agent the right context at the right time.
+Anti-Skills organizes all 2,760+ skills into **17 clean domain categories** to ensure full browsability, zero truncation on GitHub, and sub-millisecond local CLI search.
 
 ---
 
 ## ⚡ Key Highlights
 
 - **2,760+ Verified Skills**: Fully validated YAML frontmatter, standardized structure, and UTF-8 encoding.
+- **Categorized Zero-Truncation Layout**: Structured across 17 domain folders with zero GitHub 1,000-file directory truncation.
 - **Offline CLI Discovery Engine**: Instant sub-millisecond keyword and token search via `scripts/find_skill.py`.
 - **Global Antigravity Integration**: Designed for Antigravity's on-demand skill discovery architecture.
 - **Zero Bloat & Dependency-Free**: Pure Markdown and Python standard library for search and orchestration.
@@ -27,32 +28,45 @@ Whether you need strict test-driven development, deep low-level Rust systems pro
 Search across all 2,760+ skills instantly using the included search tool:
 
 ```bash
-# General search
+# General keyword search
 python scripts/find_skill.py "fastapi postgres"
 
-# Limit results and search by pack
+# Limit results and search by category
 python scripts/find_skill.py "kubernetes deployment" --top 5
 
-# View detailed skill metadata
+# View detailed skill metadata and path
 python scripts/find_skill.py --info "systematic-debugging"
 
-# List all packs and categories
-python scripts/find_skill.py --list-packs
+# List all categories and skill counts
+python scripts/find_skill.py --list-categories
 ```
 
 ---
 
 ## 📂 Repository Structure
 
-Each skill lives in its own dedicated directory following standard agent skill anatomy:
+The repository is organized by domain categories:
 
 ```text
 Anti-Skills/
-├── <skill-name>/            # Individual skill module
-│   ├── SKILL.md             # Core skill specification and system instructions (required)
-│   ├── scripts/             # Optional automation and utility scripts
-│   ├── examples/            # Reference implementations and patterns
-│   └── resources/           # Templates, schemas, and checklist assets
+├── skills/                  # Categorized skill collections (17 domains)
+│   ├── ai-agents/           # Autonomous agent harnesses, multi-agent orchestration (427 skills)
+│   ├── automation-integrations/ # Slack, Discord, Stripe, Zapier, Webhooks (171 skills)
+│   ├── backend-apis/        # FastAPI, Express, NestJS, Go, Django, GraphQL (228 skills)
+│   ├── blockchain-web3/     # Solidity, Ethereum, Smart Contracts, DeFi (24 skills)
+│   ├── cloud-devops/        # AWS, Azure, GCP, Docker, Kubernetes, Terraform (336 skills)
+│   ├── databases-data/      # PostgreSQL, MySQL, Redis, Kafka, ETL, Spark (101 skills)
+│   ├── docs-office/         # Word, Excel, PDF, PPTX, LibreOffice, Technical Writing (125 skills)
+│   ├── domain-specialists/  # Advisory personas and domain consulting (15 skills)
+│   ├── essentials/          # TDD, Root Cause Debugging, Planning, Code Reviews (16 skills)
+│   ├── gamedev-creative/    # Unity, Unreal Engine, Audio, Video, 3D Web (73 skills)
+│   ├── health-science/      # Bioinformatics, Genomics, Cheminformatics, Medical (154 skills)
+│   ├── mobile-apps/         # iOS/SwiftUI, Android Compose, Flutter, React Native (63 skills)
+│   ├── product-marketing/   # Strategy, Business Models, Pricing, Growth SEO (227 skills)
+│   ├── security-pentest/    # AppSec, OWASP, Penetration Testing, Hardening (286 skills)
+│   ├── systems-native/      # Rust, C++, C#, Java, Go, Low-Level Systems (175 skills)
+│   ├── testing-qa/          # Playwright, Cypress, Vitest, E2E, Regression (103 skills)
+│   └── web-frontend/        # React 19, Next.js 15, Vue 3, Svelte, Tailwind (245 skills)
 ├── data/
 │   └── skills_index.json    # Complete metadata catalog of all 2,760+ skills
 ├── scripts/
@@ -64,33 +78,29 @@ Anti-Skills/
 
 ---
 
-## 🎯 Skill Categories & Domain Breakdown
+## 🎯 Domain Directory Quick Links
 
-Anti-Skills is structured into cohesive domains:
+Browse individual skills directly by clicking any category below:
 
-| Domain | Focus Areas | Key Skills |
-| :--- | :--- | :--- |
-| **Workflow Essentials** | TDD, Root Cause Analysis, Planning, Code Reviews | `test-driven-development`, `systematic-debugging`, `writing-plans`, `code-review-checklist`, `verification-before-completion` |
-| **Frontend & Web** | React 19, Next.js 15, Vue 3, Svelte, Angular, Astro | `nextjs-app-router-patterns`, `react-patterns`, `vue-best-practices`, `sveltekit`, `astro` |
-| **Styling & Motion** | Tailwind CSS, Three.js, Canvas, GSAP, WebGL | `tailwind-patterns`, `threejs-fundamentals`, `threejs-shaders`, `animejs-animation` |
-| **Backend & APIs** | FastAPI, Express, NestJS, Go, Django, GraphQL, gRPC | `fastapi-pro`, `fastapi-router-py`, `nestjs-expert`, `trpc-fullstack`, `api-design-principles` |
-| **Systems & Native** | Rust, C++, C#, Java, Go, Swift, Low-level | `systems-programming-rust-project`, `arm-cortex-expert`, `springboot-patterns`, `swift-concurrency-expert` |
-| **Autonomous Agents** | Harness Construction, Multi-Agent Swarms, Tool Design | `autonomous-agent-harness`, `agent-orchestrator`, `agent-evaluation`, `subagent-driven-development` |
-| **LLM & RAG** | Vector Databases, Embeddings, Context Optimization | `vector-database-engineer`, `vector-index-tuning`, `token-budget-advisor`, `prompt-engineering` |
-| **AI Toolkits** | LangChain, LlamaIndex, OpenAI, Anthropic, Gemini, Vercel | `vercel-ai-sdk-expert`, `azure-ai-projects-py`, `ai-engineering-toolkit` |
-| **Cloud Infrastructure**| AWS, Azure, GCP, Serverless, CloudFormation | `aws-skills`, `azure-functions`, `aws-serverless`, `azd-deployment` |
-| **DevOps & Containers** | Docker, Kubernetes, Terraform, Helm, CI/CD, SRE | `terraform-infrastructure`, `terraform-aws-modules`, `turborepo-caching`, `appdeploy` |
-| **AppSec & Hardening** | OWASP Top 10, Auth, Encryption, Secrets, Input Validation | `api-security-best-practices`, `auth-implementation-patterns`, `springboot-security`, `zeroize-audit` |
-| **Offensive Security** | Ethical Hacking, Fuzzing, Penetration Testing, STRIDE | `api-fuzzing-bug-bounty`, `sqlmap-database-pentesting`, `wireshark-analysis`, `threat-modeling-expert` |
-| **Data & Databases** | PostgreSQL, SQL Optimization, Redis, Kafka, DuckDB | `sql-pro`, `sql-optimization-patterns`, `spark-optimization`, `airflow-dag-patterns` |
-| **Mobile Apps** | iOS/SwiftUI, Android Compose, Flutter, React Native | `swiftui-patterns`, `android-jetpack-compose-expert`, `android-clean-architecture`, `upgrading-expo` |
-| **QA & Verification** | Playwright, Cypress, Vitest, E2E, Regression | `webapp-testing`, `tdd-orchestrator`, `ui-visual-validator`, `ai-regression-testing` |
-| **Automation & SaaS** | Slack, Stripe, Zapier, Webhooks, CRM, Apify | `stripe-integration`, `apify-actor-development`, `telegram-bot-builder`, `zapier-make-patterns` |
-| **Documents & Office** | Word (DOCX), Excel (XLSX), PDF, PPTX, LibreOffice | `xlsx-official`, `libreoffice/writer`, `libreoffice/calc`, `pdf-processing` |
-| **Creative & Media** | Unity, Unreal Engine, Audio, Video, Image Synthesis | `unity-developer`, `unreal-engine-cpp-pro`, `videodb-skills`, `spline-3d-integration` |
-| **Web3 & Blockchain** | Solidity, Ethereum, Smart Contracts, DeFi Protocols | `solidity-security`, `web3-testing`, `smart-contract-auditor` |
-| **Product & Growth** | Market Research, Pricing, Metrics, Pitch Decks | `startup-metrics-framework`, `startup-financial-modeling`, `ai-product` |
-| **Bio & Science** | Bioinformatics, Genomics, Cheminformatics, Medical | `alphafold-database-fetch-and-analyze`, `uniprot-database`, `chembl-database`, `pdb-database` |
+| Domain Category | Directory Link | Skills | Focus Areas & Key Highlights |
+| :--- | :--- | :---: | :--- |
+| **Workflow Essentials** | [`skills/essentials/`](skills/essentials/) | 16 | TDD, Root Cause Analysis, Planning, Code Reviews, Verification |
+| **AI & Autonomous Agents** | [`skills/ai-agents/`](skills/ai-agents/) | 427 | Agent harnesses, multi-agent swarms, loops, introspection |
+| **Cloud & DevOps** | [`skills/cloud-devops/`](skills/cloud-devops/) | 336 | AWS, Azure, GCP, Docker, Kubernetes, Terraform, CI/CD, SRE |
+| **Security & Pentesting** | [`skills/security-pentest/`](skills/security-pentest/) | 286 | AppSec, OWASP Top 10, penetration testing, threat modeling |
+| **Web & Frontend** | [`skills/web-frontend/`](skills/web-frontend/) | 245 | React 19, Next.js 15, Vue 3, Svelte, Tailwind CSS, Three.js |
+| **Backend & APIs** | [`skills/backend-apis/`](skills/backend-apis/) | 228 | FastAPI, Express, NestJS, Go, Django, GraphQL, REST, gRPC |
+| **Product & Marketing** | [`skills/product-marketing/`](skills/product-marketing/) | 227 | Startup metrics, financial models, pricing strategy, growth SEO |
+| **Systems & Native** | [`skills/systems-native/`](skills/systems-native/) | 175 | Rust, C++, C#, Java, Go, low-level architecture, ARM |
+| **Automation & Integrations** | [`skills/automation-integrations/`](skills/automation-integrations/) | 171 | Slack, Discord, Stripe, Zapier, Make, SaaS webhooks |
+| **Health, Bio & Science** | [`skills/health-science/`](skills/health-science/) | 154 | AlphaFold, UniProt, ChEMBL, PDB, BLAST, Genomics, Med |
+| **Documents & Office** | [`skills/docs-office/`](skills/docs-office/) | 125 | DOCX, XLSX, PDF, PPTX, LibreOffice (Writer, Calc, Impress) |
+| **Testing & QA** | [`skills/testing-qa/`](skills/testing-qa/) | 103 | Playwright, Cypress, Vitest, unit tests, visual validation |
+| **Databases & Data** | [`skills/databases-data/`](skills/databases-data/) | 101 | PostgreSQL, SQL optimization, Redis, Kafka, DuckDB, Spark |
+| **Creative & GameDev** | [`skills/gamedev-creative/`](skills/gamedev-creative/) | 73 | Unity, Unreal Engine, Audio/Video, Spline 3D, Design |
+| **Mobile Applications** | [`skills/mobile-apps/`](skills/mobile-apps/) | 63 | iOS/SwiftUI, Android Compose, Flutter, React Native, Expo |
+| **Blockchain & Web3** | [`skills/blockchain-web3/`](skills/blockchain-web3/) | 24 | Solidity, Web3, Smart Contracts, DeFi Protocols |
+| **Domain Specialists** | [`skills/domain-specialists/`](skills/domain-specialists/) | 15 | Expert personas, strategy consultants, specialized advisors |
 
 ---
 
@@ -117,7 +127,7 @@ To make these skills available globally across all your workspaces in Antigravit
 We welcome additions, fixes, and updates to skill modules!
 1. Fork this repository.
 2. Create a new branch: `git checkout -b feat/my-new-skill`.
-3. Add your skill folder with a complete `SKILL.md` (valid YAML frontmatter with `name` and `description`).
+3. Add your skill folder under the appropriate domain directory in `skills/<category>/<skill-name>/` with a complete `SKILL.md` (valid YAML frontmatter with `name` and `description`).
 4. Validate the skill: ensure clean UTF-8 encoding without BOM and valid Markdown.
 5. Submit a Pull Request.
 
