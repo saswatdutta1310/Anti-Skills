@@ -7,11 +7,8 @@ import sys
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-DEFAULT_INDEX_PATH = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-    "data",
-    "skills_index.json",
-)
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DEFAULT_INDEX_PATH = os.path.join(REPO_ROOT, "data", "skills_index.json")
 
 
 def load_index(index_path=DEFAULT_INDEX_PATH):
@@ -38,57 +35,47 @@ def score_skill(item, terms, raw_query):
     for t in terms:
         if not t:
             continue
-        term_score = 0
-        if t == slug or t == name:
-            term_score = max(term_score, 50)
-        elif t in slug_tokens:
-            term_score = max(term_score, 28)
-        elif t in slug:
-            term_score = max(term_score, 18)
-
-        if re.search(r"\b" + re.escape(t) + r"\b", tags):
-            term_score += 8
-        elif t in tags:
-            term_score += 4
-
-        if re.search(r"\b" + re.escape(t) + r"\b", cat):
-            term_score += 6
-
-        if re.search(r"\b" + re.escape(t) + r"\b", desc):
-            term_score += 8
-        elif t in desc:
-            term_score += 3
-
-        if t in pack:
-            term_score += 2
-
-        if term_score > 0:
-            matched_terms += 1
-            score += term_score
-
-    if len(terms) > 1 and matched_terms > 0:
-        score += 18 * matched_terms
-        if matched_terms == len(terms):
+        hit = False
+        if t in slug_tokens:
+            score += 40
+            hit = True
+        elif t in slug or t in name:
             score += 25
+            hit = True
+        if t in cat:
+            score += 15
+            hit = True
+        if t in desc:
+            score += 10
+            hit = True
+        if t in tags or t in pack:
+            score += 8
+            hit = True
+        if hit:
+            matched_terms += 1
+
+    if len(terms) > 1 and matched_terms == len(terms):
+        score += 35
+
     return score
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Search globally installed Antigravity skills.")
+    parser = argparse.ArgumentParser(description="Search Anti-Skills catalog.")
     parser.add_argument("query", nargs="*", help="Keywords or skill name to search for")
-    parser.add_argument("--pack", help="Filter by plugin pack name (e.g. skills-web-frontend)")
+    parser.add_argument("--category", "--pack", dest="cat", help="Filter by category or pack name")
     parser.add_argument("--top", type=int, default=8, help="Max results to return (default: 8)")
-    parser.add_argument("--list-packs", action="store_true", help="List all packs and skill counts")
+    parser.add_argument("--list-categories", "--list-packs", action="store_true", help="List all categories and skill counts")
     parser.add_argument("--info", help="Show details and path for an exact skill slug")
     parser.add_argument("--index", default=DEFAULT_INDEX_PATH, help=argparse.SUPPRESS)
     args = parser.parse_args()
 
     items = load_index(args.index)
 
-    if args.list_packs:
+    if args.list_categories:
         counts = {}
         for it in items:
-            p = it.get("pack", "unknown")
+            p = it.get("category", it.get("pack", "unknown"))
             counts[p] = counts.get(p, 0) + 1
         for p, c in sorted(counts.items(), key=lambda x: (-x[1], x[0])):
             print(f"{p:34s} {c:4d}")
@@ -111,7 +98,7 @@ def main():
         return
 
     terms = [t for t in re.split(r"[\s,/+]+", raw_query) if len(t) >= 2 or t.isalnum()]
-    pool = [it for it in items if not args.pack or it.get("pack") == args.pack]
+    pool = [it for it in items if not args.cat or it.get("category") == args.cat or it.get("pack") == args.cat]
 
     scored = []
     for it in pool:
@@ -121,13 +108,19 @@ def main():
 
     scored.sort(key=lambda x: (-x[0], x[1].get("slug", "")))
     if not scored:
-        print(f"No matches for '{raw_query}'. Try broader keywords or --list-packs.")
+        print(f"No matches for '{raw_query}'. Try broader keywords or --list-categories.")
         return
 
     for s, it in scored[: max(1, args.top)]:
-        print(f"[{it['slug']}] (pack: {it['pack']}, score: {s})")
+        cat = it.get("category", it.get("pack", "general"))
+        rel_path = it.get("repo_path")
+        if rel_path and os.path.exists(os.path.join(REPO_ROOT, rel_path)):
+            display_path = rel_path
+        else:
+            display_path = it.get("path", "")
+        print(f"[{it['slug']}] (category: {cat}, score: {s})")
         print(f"  desc: {it['desc'][:200]}")
-        print(f"  path: {it['path']}")
+        print(f"  path: {display_path}")
 
 
 if __name__ == "__main__":
