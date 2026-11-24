@@ -99,6 +99,16 @@
     "repo_path": "skills/gamedev-creative/3d-web-experience/SKILL.md"
   },
   {
+    "slug": "a11y-debugging",
+    "name": "a11y-debugging",
+    "pack": "skills-web-frontend",
+    "desc": "Uses Chrome DevTools MCP for accessibility (a11y) debugging and auditing based on web.dev guidelines. Use when testing semantic HTML, ARIA labels, focus states, keyboard navigation, tap targets, and color contrast.",
+    "category": "web-frontend",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-web-frontend\\skills\\a11y-debugging\\SKILL.md",
+    "repo_path": "skills/web-frontend/a11y-debugging/SKILL.md"
+  },
+  {
     "slug": "ab-test-setup",
     "name": "ab-test-setup",
     "pack": "skills-testing-qa",
@@ -2228,11 +2238,11 @@
   {
     "slug": "ask-matt",
     "name": "ask-matt",
-    "pack": "skills-health-science-specialized",
-    "desc": "Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.",
+    "pack": "skills-health-science",
+    "desc": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
     "category": "health-science",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-health-science-specialized\\skills\\ask-matt\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-health-science\\skills\\ask-matt\\SKILL.md",
     "repo_path": "skills/health-science/ask-matt/SKILL.md"
   },
   {
@@ -4620,7 +4630,7 @@
     "slug": "brainstorming",
     "name": "brainstorming",
     "pack": "skills-essentials",
-    "desc": "Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration.",
+    "desc": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
     "category": "essentials",
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\brainstorming\\SKILL.md",
@@ -5268,13 +5278,144 @@
     "repo_path": "skills/testing-qa/case-review/SKILL.md"
   },
   {
+    "slug": "cavecrew",
+    "name": "cavecrew",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\cavecrew\\SKILL.md",
+    "repo_path": "skills/ai-agents/cavecrew/SKILL.md"
+  },
+  {
     "slug": "caveman",
     "name": "caveman",
-    "pack": "standalone-global",
-    "desc": "Ultra-compressed communication mode that cuts output tokens while keeping technical accuracy. Levels: lite, full, ultra and the wenyan variants. Use for /caveman, \"caveman mode\", \"talk like caveman\", \"be brief\" or \"less tokens\".",
-    "category": "",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\skills\\caveman\\SKILL.md"
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman/SKILL.md"
+  },
+  {
+    "slug": "caveman-commit",
+    "name": "caveman-commit",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman-commit\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman-commit/SKILL.md"
+  },
+  {
+    "slug": "caveman-compress",
+    "name": "caveman-compress",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman-compress\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman-compress/SKILL.md"
+  },
+  {
+    "slug": "caveman-discover",
+    "name": "caveman-discover",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman-discover\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman-discover/SKILL.md"
+  },
+  {
+    "slug": "caveman-evidence-review",
+    "name": "caveman-evidence-review",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman-evidence-review\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman-evidence-review/SKILL.md"
+  },
+  {
+    "slug": "caveman-explore",
+    "name": "caveman-explore",
+    "pack": "skills-ai-agents",
+    "desc": "Read-only repository explorer for cold-start orientation, broad cross-file localization, or when a direct search failed. Skip it when the exact file or symbol is already named. Returns path:line citations only; its reads stay out of main context.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman-explore\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman-explore/SKILL.md"
+  },
+  {
+    "slug": "caveman-help",
+    "name": "caveman-help",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman-help\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman-help/SKILL.md"
+  },
+  {
+    "slug": "caveman-learn",
+    "name": "caveman-learn",
+    "pack": "skills-ai-agents",
+    "desc": "Act on a Caveman learn report - review the ranked token sinks, apply cost-lowering fixes with per-edit consent, and report what those fixes returned. Use when asked to lower an agent's token cost, what caveman has saved, to trim a heavy CLAUDE.md, or to offload re-pasted context into cavemem.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman-learn\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman-learn/SKILL.md"
+  },
+  {
+    "slug": "caveman-manage",
+    "name": "caveman-manage",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman-manage\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman-manage/SKILL.md"
+  },
+  {
+    "slug": "caveman-optimize",
+    "name": "caveman-optimize",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman-optimize\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman-optimize/SKILL.md"
+  },
+  {
+    "slug": "caveman-review",
+    "name": "caveman-review",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman-review\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman-review/SKILL.md"
+  },
+  {
+    "slug": "caveman-setup",
+    "name": "caveman-setup",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman-setup\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman-setup/SKILL.md"
+  },
+  {
+    "slug": "caveman-stats",
+    "name": "caveman-stats",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\caveman-stats\\SKILL.md",
+    "repo_path": "skills/ai-agents/caveman-stats/SKILL.md"
   },
   {
     "slug": "cc-skill-backend-patterns",
@@ -5446,6 +5587,36 @@
     ],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-health-science-specialized\\skills\\check-identity-pack\\SKILL.md",
     "repo_path": "skills/health-science/check-identity-pack/SKILL.md"
+  },
+  {
+    "slug": "chief-of-staff",
+    "name": "chief-of-staff",
+    "pack": "skills-ai-agents",
+    "desc": "Pursue a long-running goal in a single session by co-ordinating subagents.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\chief-of-staff\\SKILL.md",
+    "repo_path": "skills/ai-agents/chief-of-staff/SKILL.md"
+  },
+  {
+    "slug": "chrome-devtools",
+    "name": "chrome-devtools",
+    "pack": "skills-web-frontend",
+    "desc": "Uses Chrome DevTools via MCP for efficient debugging, troubleshooting and browser automation. Use when debugging web pages, automating browser interactions, analyzing performance, or inspecting network requests. This skill does not apply to `--slim` mode (MCP configuration).",
+    "category": "web-frontend",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-web-frontend\\skills\\chrome-devtools\\SKILL.md",
+    "repo_path": "skills/web-frontend/chrome-devtools/SKILL.md"
+  },
+  {
+    "slug": "chrome-devtools-cli",
+    "name": "chrome-devtools-cli",
+    "pack": "skills-web-frontend",
+    "desc": "Use this skill to write shell scripts or run shell commands to automate tasks in the browser or otherwise use Chrome DevTools via CLI.",
+    "category": "web-frontend",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-web-frontend\\skills\\chrome-devtools-cli\\SKILL.md",
+    "repo_path": "skills/web-frontend/chrome-devtools-cli/SKILL.md"
   },
   {
     "slug": "chrome-extension-developer",
@@ -5673,6 +5844,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\claude-devfleet\\SKILL.md",
     "repo_path": "skills/ai-agents/claude-devfleet/SKILL.md"
+  },
+  {
+    "slug": "claude-handoff",
+    "name": "claude-handoff",
+    "pack": "skills-ai-agents",
+    "desc": "Hand the current conversation off to a fresh background agent that picks up the work immediately.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\claude-handoff\\SKILL.md",
+    "repo_path": "skills/ai-agents/claude-handoff/SKILL.md"
   },
   {
     "slug": "claude-in-chrome-troubleshooting",
@@ -6087,6 +6268,16 @@
     "repo_path": "skills/systems-native/code-refactoring-tech-debt/SKILL.md"
   },
   {
+    "slug": "code-review",
+    "name": "code-review",
+    "pack": "skills-ai-agents",
+    "desc": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \\\"review since X\\\".",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\code-review\\SKILL.md",
+    "repo_path": "skills/ai-agents/code-review/SKILL.md"
+  },
+  {
     "slug": "code-review-ai-ai-review",
     "name": "code-review-ai-ai-review",
     "pack": "skills-ai-agents",
@@ -6259,11 +6450,11 @@
   {
     "slug": "codebase-design",
     "name": "codebase-design",
-    "pack": "skills-engineering-workflows",
+    "pack": "skills-systems-native",
     "desc": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
     "category": "systems-native",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-engineering-workflows\\skills\\codebase-design\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-systems-native\\skills\\codebase-design\\SKILL.md",
     "repo_path": "skills/systems-native/codebase-design/SKILL.md"
   },
   {
@@ -7063,6 +7254,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-backend-apis\\skills\\convex-backend\\SKILL.md",
     "repo_path": "skills/backend-apis/convex-backend/SKILL.md"
+  },
+  {
+    "slug": "cookie-debugging",
+    "name": "cookie-debugging",
+    "pack": "skills-web-frontend",
+    "desc": "Uses Chrome DevTools MCP for inspecting, debugging, and testing cookies, session state, authentication issues, and cookie consent compliance. Use when diagnosing 401/403 errors, authentication redirects, session expiration, Cookie/Set-Cookie header issues, cookie banner consent conformance, or third-party cookie/SameSite/Partitioned cookie warnings.",
+    "category": "web-frontend",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-web-frontend\\skills\\cookie-debugging\\SKILL.md",
+    "repo_path": "skills/web-frontend/cookie-debugging/SKILL.md"
   },
   {
     "slug": "copilot-delegate",
@@ -8027,6 +8228,16 @@
     "repo_path": "skills/systems-native/debug-buttercup/SKILL.md"
   },
   {
+    "slug": "debug-optimize-lcp",
+    "name": "debug-optimize-lcp",
+    "pack": "skills-web-frontend",
+    "desc": "Guides debugging and optimizing Largest Contentful Paint (LCP) using Chrome DevTools MCP tools. Use this skill whenever the user asks about LCP performance, slow page loads, Core Web Vitals optimization, or wants to understand why their page's main content takes too long to appear. Also use when the user mentions \"largest contentful paint\", \"page load speed\", \"CWV\", or wants to improve how fast their hero image or main content renders.",
+    "category": "web-frontend",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-web-frontend\\skills\\debug-optimize-lcp\\SKILL.md",
+    "repo_path": "skills/web-frontend/debug-optimize-lcp/SKILL.md"
+  },
+  {
     "slug": "debugger",
     "name": "debugger",
     "pack": "skills-testing-qa",
@@ -8609,12 +8820,22 @@
   {
     "slug": "diagnosing-bugs",
     "name": "diagnosing-bugs",
-    "pack": "skills-engineering-workflows",
+    "pack": "skills-systems-native",
     "desc": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
     "category": "systems-native",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-engineering-workflows\\skills\\diagnosing-bugs\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-systems-native\\skills\\diagnosing-bugs\\SKILL.md",
     "repo_path": "skills/systems-native/diagnosing-bugs/SKILL.md"
+  },
+  {
+    "slug": "diagnosing-superpowers",
+    "name": "diagnosing-superpowers",
+    "pack": "skills-essentials",
+    "desc": "Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too long\", \"why is it so expensive\", \"what is it doing\" — or wants to build a bug report for the superpowers maintainers, for the current session or a past one identified by id or path, on any harness.",
+    "category": "essentials",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\diagnosing-superpowers\\SKILL.md",
+    "repo_path": "skills/essentials/diagnosing-superpowers/SKILL.md"
   },
   {
     "slug": "diagram-generator",
@@ -8707,11 +8928,11 @@
   {
     "slug": "dispatching-parallel-agents",
     "name": "dispatching-parallel-agents",
-    "pack": "skills-engineering-workflows",
+    "pack": "skills-systems-native",
     "desc": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
     "category": "systems-native",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-engineering-workflows\\skills\\dispatching-parallel-agents\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-systems-native\\skills\\dispatching-parallel-agents\\SKILL.md",
     "repo_path": "skills/systems-native/dispatching-parallel-agents/SKILL.md"
   },
   {
@@ -9046,11 +9267,11 @@
   {
     "slug": "domain-modeling",
     "name": "domain-modeling",
-    "pack": "skills-engineering-workflows",
-    "desc": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.",
+    "pack": "skills-systems-native",
+    "desc": "Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR.",
     "category": "systems-native",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-engineering-workflows\\skills\\domain-modeling\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-systems-native\\skills\\domain-modeling\\SKILL.md",
     "repo_path": "skills/systems-native/domain-modeling/SKILL.md"
   },
   {
@@ -9886,11 +10107,11 @@
   {
     "slug": "executing-plans",
     "name": "executing-plans",
-    "pack": "skills-engineering-workflows",
-    "desc": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+    "pack": "skills-systems-native",
+    "desc": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available",
     "category": "systems-native",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-engineering-workflows\\skills\\executing-plans\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-systems-native\\skills\\executing-plans\\SKILL.md",
     "repo_path": "skills/systems-native/executing-plans/SKILL.md"
   },
   {
@@ -10503,11 +10724,11 @@
   {
     "slug": "finishing-a-development-branch",
     "name": "finishing-a-development-branch",
-    "pack": "skills-engineering-workflows",
-    "desc": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+    "pack": "skills-systems-native",
+    "desc": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
     "category": "systems-native",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-engineering-workflows\\skills\\finishing-a-development-branch\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-systems-native\\skills\\finishing-a-development-branch\\SKILL.md",
     "repo_path": "skills/systems-native/finishing-a-development-branch/SKILL.md"
   },
   {
@@ -11738,6 +11959,16 @@
     "repo_path": "skills/cloud-devops/git-advanced-workflows/SKILL.md"
   },
   {
+    "slug": "git-guardrails-claude-code",
+    "name": "git-guardrails-claude-code",
+    "pack": "skills-cloud-devops",
+    "desc": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.",
+    "category": "cloud-devops",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-cloud-devops\\skills\\git-guardrails-claude-code\\SKILL.md",
+    "repo_path": "skills/cloud-devops/git-guardrails-claude-code/SKILL.md"
+  },
+  {
     "slug": "git-hooks-automation",
     "name": "git-hooks-automation",
     "pack": "skills-automation-integrations",
@@ -12366,7 +12597,7 @@
     "slug": "grilling",
     "name": "grilling",
     "pack": "skills-testing-qa",
-    "desc": "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.",
+    "desc": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
     "category": "testing-qa",
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-testing-qa\\skills\\grilling\\SKILL.md",
@@ -14600,20 +14831,30 @@
     "slug": "implement",
     "name": "implement",
     "pack": "skills-product-marketing",
-    "desc": "Implement a piece of work based on a PRD or set of issues.",
+    "desc": "Implement a piece of work based on a spec or set of tickets.",
     "category": "product-marketing",
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-product-marketing\\skills\\implement\\SKILL.md",
     "repo_path": "skills/product-marketing/implement/SKILL.md"
   },
   {
+    "slug": "implement-spec",
+    "name": "implement-spec",
+    "pack": "skills-ai-agents",
+    "desc": "Implement the result of /to-spec and /to-tickets in code.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\implement-spec\\SKILL.md",
+    "repo_path": "skills/ai-agents/implement-spec/SKILL.md"
+  },
+  {
     "slug": "improve-codebase-architecture",
     "name": "improve-codebase-architecture",
-    "pack": "skills-engineering-workflows",
+    "pack": "skills-systems-native",
     "desc": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
     "category": "systems-native",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-engineering-workflows\\skills\\improve-codebase-architecture\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-systems-native\\skills\\improve-codebase-architecture\\SKILL.md",
     "repo_path": "skills/systems-native/improve-codebase-architecture/SKILL.md"
   },
   {
@@ -14756,6 +14997,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-automation-integrations\\skills\\inngest\\SKILL.md",
     "repo_path": "skills/automation-integrations/inngest/SKILL.md"
+  },
+  {
+    "slug": "inspect-in-devtools",
+    "name": "inspect-in-devtools",
+    "pack": "skills-web-frontend",
+    "desc": "Use this skill to connect to the Chrome DevTools UI for interactive debugging, UI/UX review, Q&A, showing elements/network requests/panels to the user, inspecting the user's current DevTools selection, and addressing or polling for DevTools UI comment threads.",
+    "category": "web-frontend",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-web-frontend\\skills\\inspect-in-devtools\\SKILL.md",
+    "repo_path": "skills/web-frontend/inspect-in-devtools/SKILL.md"
   },
   {
     "slug": "instagram",
@@ -14909,6 +15160,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-engineering-workflows\\skills\\inventory-demand-planning\\SKILL.md",
     "repo_path": "skills/systems-native/inventory-demand-planning/SKILL.md"
+  },
+  {
+    "slug": "investigate-first",
+    "name": "investigate-first",
+    "pack": "skills-essentials",
+    "desc": "Diagnose ambiguous failures before editing. Use for unknown causes, intermittent behavior, performance regressions, or investigations needing evidence-ranked hypotheses.",
+    "category": "essentials",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\investigate-first\\SKILL.md",
+    "repo_path": "skills/essentials/investigate-first/SKILL.md"
   },
   {
     "slug": "investor-materials",
@@ -15760,6 +16021,16 @@
     "repo_path": "skills/product-marketing/lead-magnets/SKILL.md"
   },
   {
+    "slug": "lean-build",
+    "name": "lean-build",
+    "pack": "skills-essentials",
+    "desc": "Build feature work with high overbuilding risk. Use for new behavior, product slices, or integrations where repository reuse, strict scope, and an explicit stop condition matter.",
+    "category": "essentials",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\lean-build\\SKILL.md",
+    "repo_path": "skills/essentials/lean-build/SKILL.md"
+  },
+  {
     "slug": "learn",
     "name": "learn",
     "pack": "skills-engineering-workflows",
@@ -16598,6 +16869,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\loop-library\\SKILL.md",
     "repo_path": "skills/ai-agents/loop-library/SKILL.md"
+  },
+  {
+    "slug": "loop-me",
+    "name": "loop-me",
+    "pack": "skills-ai-agents",
+    "desc": "Grill me about specs for the workflows I want to build, within this workspace.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\loop-me\\SKILL.md",
+    "repo_path": "skills/ai-agents/loop-me/SKILL.md"
   },
   {
     "slug": "loopy",
@@ -17593,6 +17874,16 @@
     "repo_path": "skills/health-science/meeting-distiller-pro/SKILL.md"
   },
   {
+    "slug": "megacave",
+    "name": "megacave",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\megacave\\SKILL.md",
+    "repo_path": "skills/ai-agents/megacave/SKILL.md"
+  },
+  {
     "slug": "mem-search",
     "name": "mem-search",
     "pack": "skills-ai-agents",
@@ -17621,6 +17912,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-security-pentest\\skills\\memory-forensics\\SKILL.md",
     "repo_path": "skills/security-pentest/memory-forensics/SKILL.md"
+  },
+  {
+    "slug": "memory-leak-debugging",
+    "name": "memory-leak-debugging",
+    "pack": "skills-web-frontend",
+    "desc": "Diagnoses and resolves memory leaks in JavaScript/Node.js applications. Use when a user reports high memory usage, OOM errors, or wants to capture, compare, or inspect heap snapshots with Chrome DevTools MCP memory tools.",
+    "category": "web-frontend",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-web-frontend\\skills\\memory-leak-debugging\\SKILL.md",
+    "repo_path": "skills/web-frontend/memory-leak-debugging/SKILL.md"
   },
   {
     "slug": "memory-safety-patterns",
@@ -17761,6 +18062,26 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-security-pentest\\skills\\mid-engagement-ir-detection\\SKILL.md",
     "repo_path": "skills/security-pentest/mid-engagement-ir-detection/SKILL.md"
+  },
+  {
+    "slug": "migrate-to-shoehorn",
+    "name": "migrate-to-shoehorn",
+    "pack": "skills-cloud-devops",
+    "desc": "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.",
+    "category": "cloud-devops",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-cloud-devops\\skills\\migrate-to-shoehorn\\SKILL.md",
+    "repo_path": "skills/cloud-devops/migrate-to-shoehorn/SKILL.md"
+  },
+  {
+    "slug": "migration",
+    "name": "migration",
+    "pack": "skills-essentials",
+    "desc": "Implement reversible compatibility-safe transitions. Use for schema, data, API, protocol, configuration, or dependency migrations requiring rollback and preservation proof.",
+    "category": "essentials",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\migration\\SKILL.md",
+    "repo_path": "skills/essentials/migration/SKILL.md"
   },
   {
     "slug": "minecraft-bukkit-pro",
@@ -20666,12 +20987,62 @@
   {
     "slug": "ponytail",
     "name": "ponytail",
-    "pack": "skills-health-science-specialized",
-    "desc": "The Ponytail coding protocol for writing minimal, efficient, and safe code.",
+    "pack": "skills-health-science",
+    "desc": ">",
     "category": "health-science",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-health-science-specialized\\skills\\ponytail\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-health-science\\skills\\ponytail\\SKILL.md",
     "repo_path": "skills/health-science/ponytail/SKILL.md"
+  },
+  {
+    "slug": "ponytail-audit",
+    "name": "ponytail-audit",
+    "pack": "skills-essentials",
+    "desc": ">",
+    "category": "essentials",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\ponytail-audit\\SKILL.md",
+    "repo_path": "skills/essentials/ponytail-audit/SKILL.md"
+  },
+  {
+    "slug": "ponytail-debt",
+    "name": "ponytail-debt",
+    "pack": "skills-essentials",
+    "desc": ">",
+    "category": "essentials",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\ponytail-debt\\SKILL.md",
+    "repo_path": "skills/essentials/ponytail-debt/SKILL.md"
+  },
+  {
+    "slug": "ponytail-gain",
+    "name": "ponytail-gain",
+    "pack": "skills-essentials",
+    "desc": ">",
+    "category": "essentials",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\ponytail-gain\\SKILL.md",
+    "repo_path": "skills/essentials/ponytail-gain/SKILL.md"
+  },
+  {
+    "slug": "ponytail-help",
+    "name": "ponytail-help",
+    "pack": "skills-essentials",
+    "desc": ">",
+    "category": "essentials",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\ponytail-help\\SKILL.md",
+    "repo_path": "skills/essentials/ponytail-help/SKILL.md"
+  },
+  {
+    "slug": "ponytail-review",
+    "name": "ponytail-review",
+    "pack": "skills-essentials",
+    "desc": ">",
+    "category": "essentials",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\ponytail-review\\SKILL.md",
+    "repo_path": "skills/essentials/ponytail-review/SKILL.md"
   },
   {
     "slug": "popup-cro",
@@ -20873,6 +21244,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-docs-office\\skills\\pptx-official\\SKILL.md",
     "repo_path": "skills/docs-office/pptx-official/SKILL.md"
+  },
+  {
+    "slug": "pr",
+    "name": "pr",
+    "pack": "skills-ai-agents",
+    "desc": "Use when writing a PR body.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\pr\\SKILL.md",
+    "repo_path": "skills/ai-agents/pr/SKILL.md"
   },
   {
     "slug": "pr-merge-champion",
@@ -21405,7 +21786,7 @@
     "slug": "prototype",
     "name": "prototype",
     "pack": "skills-web-frontend",
-    "desc": "Build a throwaway prototype to flesh out a design — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route.",
+    "desc": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
     "category": "web-frontend",
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-web-frontend\\skills\\prototype\\SKILL.md",
@@ -22010,11 +22391,11 @@
   {
     "slug": "receiving-code-review",
     "name": "receiving-code-review",
-    "pack": "skills-engineering-workflows",
-    "desc": "Code review requires technical evaluation, not emotional performance.",
+    "pack": "skills-systems-native",
+    "desc": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
     "category": "systems-native",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-engineering-workflows\\skills\\receiving-code-review\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-systems-native\\skills\\receiving-code-review\\SKILL.md",
     "repo_path": "skills/systems-native/receiving-code-review/SKILL.md"
   },
   {
@@ -22319,12 +22700,22 @@
   {
     "slug": "requesting-code-review",
     "name": "requesting-code-review",
-    "pack": "skills-engineering-workflows",
+    "pack": "skills-systems-native",
     "desc": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
     "category": "systems-native",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-engineering-workflows\\skills\\requesting-code-review\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-systems-native\\skills\\requesting-code-review\\SKILL.md",
     "repo_path": "skills/systems-native/requesting-code-review/SKILL.md"
+  },
+  {
+    "slug": "research",
+    "name": "research",
+    "pack": "skills-ai-agents",
+    "desc": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\research\\SKILL.md",
+    "repo_path": "skills/ai-agents/research/SKILL.md"
   },
   {
     "slug": "research-ops",
@@ -22375,6 +22766,16 @@
     ],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\resumable-implementation-contracts\\SKILL.md",
     "repo_path": "skills/ai-agents/resumable-implementation-contracts/SKILL.md"
+  },
+  {
+    "slug": "retro",
+    "name": "retro",
+    "pack": "skills-ai-agents",
+    "desc": "Conduct a retrospective on a coding session.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\retro\\SKILL.md",
+    "repo_path": "skills/ai-agents/retro/SKILL.md"
   },
   {
     "slug": "retro-design",
@@ -22643,6 +23044,16 @@
     "repo_path": "skills/ai-agents/routerbase-model-gateway/SKILL.md"
   },
   {
+    "slug": "rtk",
+    "name": "rtk",
+    "pack": "skills-systems-native",
+    "desc": "Rust Token Killer (RTK) CLI proxy for compressing command output and minimizing LLM context tokens when executing bash/terminal commands.",
+    "category": "systems-native",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-systems-native\\skills\\rtk\\SKILL.md",
+    "repo_path": "skills/systems-native/rtk/SKILL.md"
+  },
+  {
     "slug": "ruby-pro",
     "name": "ruby-pro",
     "pack": "skills-backend-apis",
@@ -22811,6 +23222,16 @@
     "repo_path": "skills/security-pentest/saas-security-posture/SKILL.md"
   },
   {
+    "slug": "safe-refactor",
+    "name": "safe-refactor",
+    "pack": "skills-essentials",
+    "desc": "Restructure code while preserving behavior. Use for extraction, consolidation, ownership moves, or cleanup where verification must bracket structural edits.",
+    "category": "essentials",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\safe-refactor\\SKILL.md",
+    "repo_path": "skills/essentials/safe-refactor/SKILL.md"
+  },
+  {
     "slug": "safety-guard",
     "name": "safety-guard",
     "pack": "skills-security-pentest",
@@ -22971,6 +23392,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-security-pentest\\skills\\sbom-supply-chain\\SKILL.md",
     "repo_path": "skills/security-pentest/sbom-supply-chain/SKILL.md"
+  },
+  {
+    "slug": "scaffold-exercises",
+    "name": "scaffold-exercises",
+    "pack": "skills-cloud-devops",
+    "desc": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.",
+    "category": "cloud-devops",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-cloud-devops\\skills\\scaffold-exercises\\SKILL.md",
+    "repo_path": "skills/cloud-devops/scaffold-exercises/SKILL.md"
   },
   {
     "slug": "scala-pro",
@@ -23966,12 +24397,32 @@
   {
     "slug": "setup-matt-pocock-skills",
     "name": "setup-matt-pocock-skills",
-    "pack": "skills-health-science-specialized",
-    "desc": "Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+    "pack": "skills-health-science",
+    "desc": "Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
     "category": "health-science",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-health-science-specialized\\skills\\setup-matt-pocock-skills\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-health-science\\skills\\setup-matt-pocock-skills\\SKILL.md",
     "repo_path": "skills/health-science/setup-matt-pocock-skills/SKILL.md"
+  },
+  {
+    "slug": "setup-pre-commit",
+    "name": "setup-pre-commit",
+    "pack": "skills-cloud-devops",
+    "desc": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.",
+    "category": "cloud-devops",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-cloud-devops\\skills\\setup-pre-commit\\SKILL.md",
+    "repo_path": "skills/cloud-devops/setup-pre-commit/SKILL.md"
+  },
+  {
+    "slug": "setup-ts-deep-modules",
+    "name": "setup-ts-deep-modules",
+    "pack": "skills-ai-agents",
+    "desc": "Wire dependency-cruiser into a TypeScript repo so each package is a deep module, with implementation hidden in subfolders and reachable only through its entry-point files. User-invoked.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\setup-ts-deep-modules\\SKILL.md",
+    "repo_path": "skills/ai-agents/setup-ts-deep-modules/SKILL.md"
   },
   {
     "slug": "sexual-health-analyzer",
@@ -24676,6 +25127,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-testing-qa\\skills\\software-architecture\\SKILL.md",
     "repo_path": "skills/testing-qa/software-architecture/SKILL.md"
+  },
+  {
+    "slug": "software-factory",
+    "name": "software-factory",
+    "pack": "skills-ai-agents",
+    "desc": "Shared language for designing a software factory: the tasks it runs and the services it plugs into.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\software-factory\\SKILL.md",
+    "repo_path": "skills/ai-agents/software-factory/SKILL.md"
   },
   {
     "slug": "solidity-security",
@@ -25485,6 +25946,16 @@
     "repo_path": "skills/security-pentest/supply-chain-security/SKILL.md"
   },
   {
+    "slug": "surgical-patch",
+    "name": "surgical-patch",
+    "pack": "skills-essentials",
+    "desc": "Fix bugs and small behavior changes at the narrowest responsible layer. Use when regression proof, preserved surrounding behavior, and task-relevant tests matter.",
+    "category": "essentials",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\surgical-patch\\SKILL.md",
+    "repo_path": "skills/essentials/surgical-patch/SKILL.md"
+  },
+  {
     "slug": "survey-generator",
     "name": "survey-generator",
     "pack": "skills-product-marketing",
@@ -25863,11 +26334,11 @@
   {
     "slug": "teach",
     "name": "teach",
-    "pack": "skills-health-science-specialized",
+    "pack": "skills-health-science",
     "desc": "Teach the user a new skill or concept, within this workspace.",
     "category": "health-science",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-health-science-specialized\\skills\\teach\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-health-science\\skills\\teach\\SKILL.md",
     "repo_path": "skills/health-science/teach/SKILL.md"
   },
   {
@@ -26125,7 +26596,7 @@
     "slug": "test-driven-development",
     "name": "test-driven-development",
     "pack": "skills-essentials",
-    "desc": "Use a failing behavioral test to guide a feature or bug fix, then implement and refactor with relevant regression checks.",
+    "desc": "Use when implementing any feature or bugfix, before writing implementation code",
     "category": "essentials",
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\test-driven-development\\SKILL.md",
@@ -26501,6 +26972,36 @@
     "repo_path": "skills/product-marketing/to-prd/SKILL.md"
   },
   {
+    "slug": "to-questionnaire",
+    "name": "to-questionnaire",
+    "pack": "skills-ai-agents",
+    "desc": "Turn a decision you can't fully answer into a questionnaire for someone else to fill in.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\to-questionnaire\\SKILL.md",
+    "repo_path": "skills/ai-agents/to-questionnaire/SKILL.md"
+  },
+  {
+    "slug": "to-spec",
+    "name": "to-spec",
+    "pack": "skills-ai-agents",
+    "desc": "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\to-spec\\SKILL.md",
+    "repo_path": "skills/ai-agents/to-spec/SKILL.md"
+  },
+  {
+    "slug": "to-tickets",
+    "name": "to-tickets",
+    "pack": "skills-ai-agents",
+    "desc": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in one file per ticket locally, or native blocking links on a real tracker).",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\to-tickets\\SKILL.md",
+    "repo_path": "skills/ai-agents/to-tickets/SKILL.md"
+  },
+  {
     "slug": "todoist-automation",
     "name": "todoist-automation",
     "pack": "skills-automation-integrations",
@@ -26799,7 +27300,7 @@
     "slug": "triage",
     "name": "triage",
     "pack": "skills-ai-agents",
-    "desc": "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.",
+    "desc": "Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs.",
     "category": "ai-agents",
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\triage\\SKILL.md",
@@ -26834,6 +27335,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\trl-training\\SKILL.md",
     "repo_path": "skills/ai-agents/trl-training/SKILL.md"
+  },
+  {
+    "slug": "troubleshooting",
+    "name": "troubleshooting",
+    "pack": "skills-web-frontend",
+    "desc": "Uses Chrome DevTools MCP and documentation to troubleshoot connection and target issues. Trigger this skill when list_pages, new_page, or navigate_page fail, or when the server initialization fails.",
+    "category": "web-frontend",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-web-frontend\\skills\\troubleshooting\\SKILL.md",
+    "repo_path": "skills/web-frontend/troubleshooting/SKILL.md"
   },
   {
     "slug": "trpc-fullstack",
@@ -27122,6 +27633,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-web-frontend\\skills\\ui-visual-validator\\SKILL.md",
     "repo_path": "skills/web-frontend/ui-visual-validator/SKILL.md"
+  },
+  {
+    "slug": "ultracave",
+    "name": "ultracave",
+    "pack": "skills-ai-agents",
+    "desc": ">",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\ultracave\\SKILL.md",
+    "repo_path": "skills/ai-agents/ultracave/SKILL.md"
   },
   {
     "slug": "uncle-bob-craft",
@@ -27473,7 +27994,7 @@
     "slug": "using-git-worktrees",
     "name": "using-git-worktrees",
     "pack": "skills-cloud-devops",
-    "desc": "Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneously without switching.",
+    "desc": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
     "category": "cloud-devops",
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-cloud-devops\\skills\\using-git-worktrees\\SKILL.md",
@@ -27518,11 +28039,11 @@
   {
     "slug": "using-superpowers",
     "name": "using-superpowers",
-    "pack": "skills-engineering-workflows",
-    "desc": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+    "pack": "skills-systems-native",
+    "desc": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
     "category": "systems-native",
     "tags": [],
-    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-engineering-workflows\\skills\\using-superpowers\\SKILL.md",
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-systems-native\\skills\\using-superpowers\\SKILL.md",
     "repo_path": "skills/systems-native/using-superpowers/SKILL.md"
   },
   {
@@ -27757,7 +28278,7 @@
     "slug": "verification-before-completion",
     "name": "verification-before-completion",
     "pack": "skills-essentials",
-    "desc": "Claiming work is complete without verification is dishonesty, not efficiency. Use when ANY variation of success/completion claims, ANY expression of satisfaction, or ANY positive statement about work state.",
+    "desc": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
     "category": "essentials",
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\verification-before-completion\\SKILL.md",
@@ -27772,6 +28293,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\verification-loop\\SKILL.md",
     "repo_path": "skills/ai-agents/verification-loop/SKILL.md"
+  },
+  {
+    "slug": "verify-and-stop",
+    "name": "verify-and-stop",
+    "pack": "skills-essentials",
+    "desc": "Prove existing work meets acceptance conditions without expanding scope. Use for validation-only tasks, completion checks, focused gate runs, and last-mile proof.",
+    "category": "essentials",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-essentials\\skills\\verify-and-stop\\SKILL.md",
+    "repo_path": "skills/essentials/verify-and-stop/SKILL.md"
   },
   {
     "slug": "verify-citations",
@@ -28176,6 +28707,16 @@
     "repo_path": "skills/security-pentest/waf-setup/SKILL.md"
   },
   {
+    "slug": "wait-what",
+    "name": "wait-what",
+    "pack": "skills-ai-agents",
+    "desc": "Stop. That last message did not land: re-pitch it.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\wait-what\\SKILL.md",
+    "repo_path": "skills/ai-agents/wait-what/SKILL.md"
+  },
+  {
     "slug": "warehouse",
     "name": "warehouse",
     "pack": "skills-databases-data",
@@ -28209,6 +28750,16 @@
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-health-science-specialized\\skills\\warren-buffett\\SKILL.md",
     "repo_path": "skills/health-science/warren-buffett/SKILL.md"
+  },
+  {
+    "slug": "wayfinder",
+    "name": "wayfinder",
+    "pack": "skills-ai-agents",
+    "desc": "Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\wayfinder\\SKILL.md",
+    "repo_path": "skills/ai-agents/wayfinder/SKILL.md"
   },
   {
     "slug": "wcag-audit-patterns",
@@ -28744,6 +29295,16 @@
     "repo_path": "skills/security-pentest/wireshark-analysis/SKILL.md"
   },
   {
+    "slug": "wizard",
+    "name": "wizard",
+    "pack": "skills-ai-agents",
+    "desc": "Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. Don't invoke this for steps the agent can perform itself.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\wizard\\SKILL.md",
+    "repo_path": "skills/ai-agents/wizard/SKILL.md"
+  },
+  {
     "slug": "wjttc-builder",
     "name": "wjttc-builder",
     "pack": "skills-testing-qa",
@@ -28944,6 +29505,36 @@
     "repo_path": "skills/automation-integrations/wrike-automation/SKILL.md"
   },
   {
+    "slug": "writing-beats",
+    "name": "writing-beats",
+    "pack": "skills-ai-agents",
+    "desc": "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\writing-beats\\SKILL.md",
+    "repo_path": "skills/ai-agents/writing-beats/SKILL.md"
+  },
+  {
+    "slug": "writing-for-agents",
+    "name": "writing-for-agents",
+    "pack": "skills-ai-agents",
+    "desc": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\writing-for-agents\\SKILL.md",
+    "repo_path": "skills/ai-agents/writing-for-agents/SKILL.md"
+  },
+  {
+    "slug": "writing-fragments",
+    "name": "writing-fragments",
+    "pack": "skills-ai-agents",
+    "desc": "Writing, explore: mine raw fragments, no structure yet.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\writing-fragments\\SKILL.md",
+    "repo_path": "skills/ai-agents/writing-fragments/SKILL.md"
+  },
+  {
     "slug": "writing-great-skills",
     "name": "writing-great-skills",
     "pack": "skills-docs-office",
@@ -28974,10 +29565,20 @@
     "repo_path": "skills/essentials/writing-plans/SKILL.md"
   },
   {
+    "slug": "writing-shape",
+    "name": "writing-shape",
+    "pack": "skills-ai-agents",
+    "desc": "Writing, exploit: shape raw material into an article, paragraph by paragraph.",
+    "category": "ai-agents",
+    "tags": [],
+    "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\writing-shape\\SKILL.md",
+    "repo_path": "skills/ai-agents/writing-shape/SKILL.md"
+  },
+  {
     "slug": "writing-skills",
     "name": "writing-skills",
     "pack": "skills-ai-agents",
-    "desc": "Use when creating, updating, or improving agent skills.",
+    "desc": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
     "category": "ai-agents",
     "tags": [],
     "path": "C:\\Users\\VICTUS\\.gemini\\config\\plugins\\skills-ai-agents\\skills\\writing-skills\\SKILL.md",
